@@ -1,0 +1,16 @@
+
+Let's create the basic environment variables file:
+
+```plaintext:%2FUsers%2Fenyurao%2FDesktop%2FGitHub%2Fcallgeorge%2F.env.example
+# Vapi Configuration
+VAPI_API_KEY=your_vapi_key_here
+
+# Cal.com Configuration
+CAL_API_KEY=your_cal_key_here
+CAL_WEBHOOK_SECRET=your_webhook_secret_here
+
+# Database Configuration
+NEON_DATABASE_URL=postgres://user:password@host/database
+
+# Application Configuration
+NEXT_PUBLIC_APP_URL=http://localhost:3000

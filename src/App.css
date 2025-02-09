@@ -40,3 +40,20 @@
 .read-the-docs {
   color: #888;
 }
+```
+```css
+.App {
+  width: 100%;
+  min-height: 100vh;
+  background: linear-gradient(to bottom right, #ffffff, #f3f4f6);
+}
+
+button:hover {
+  transform: translateY(-1px);
+  box-shadow: 0 6px 10px rgba(0,0,0,0.15);
+}
+
+button:active {
+  transform: translateY(0);
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
