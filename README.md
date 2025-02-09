@@ -1,69 +1,28 @@
-# Welcome to your Lovable project
+# George - Home Inspection Scheduling Assistant
 
-## Project info
+## Overview
+Voice-powered AI assistant for scheduling home inspections, built with:
+- Vapi.ai for voice interactions
+- Cal.com for appointment scheduling
+- Neon Postgres for data storage
+- Vercel for deployment
 
-**URL**: https://lovable.dev/projects/14f9f7fb-84f0-480c-954b-fc688c90c90e
+## Project Structure
+```assistants/``` - Voice assistant configurations and prompts
+```components/``` - React components
+```lib/``` - Utility functions and API integrations
+```src/``` - Main application code
+```db/``` - Database schemas and queries
 
-## How can I edit this code?
+## Setup Instructions
+1. Clone the repository
+2. Install dependencies: `npm install`
+3. Copy `.env.example` to `.env` and fill in required values
+4. Run development server: `npm run dev`
 
-There are several ways of editing your application.
-
-**Use Lovable**
-
-Simply visit the [Lovable Project](https://lovable.dev/projects/14f9f7fb-84f0-480c-954b-fc688c90c90e) and start prompting.
-
-Changes made via Lovable will be committed automatically to this repo.
-
-**Use your preferred IDE**
-
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
-
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
-
-Follow these steps:
-
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
-
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
-
-# Step 3: Install the necessary dependencies.
-npm i
-
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
+## Environment Variables
+```plaintext
+VAPI_API_KEY=
+CAL_API_KEY=
+NEON_DATABASE_URL=
 ```
-
-**Edit a file directly in GitHub**
-
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
-
-**Use GitHub Codespaces**
-
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
-
-## What technologies are used for this project?
-
-This project is built with .
-
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
-
-## How can I deploy this project?
-
-Simply open [Lovable](https://lovable.dev/projects/14f9f7fb-84f0-480c-954b-fc688c90c90e) and click on Share -> Publish.
-
-## I want to use a custom domain - is that possible?
-
-We don't support custom domains (yet). If you want to deploy your project under your own domain then we recommend using Netlify. Visit our docs for more details: [Custom domains](https://docs.lovable.dev/tips-tricks/custom-domain/)
