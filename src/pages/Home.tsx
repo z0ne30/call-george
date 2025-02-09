@@ -1,6 +1,6 @@
 import React from 'react';
-import Button from '../../assistants/components/base/Button';
-import ActiveCallDetail from '../../assistants/components/ActiveCallDetail';
+import { Button } from "@/components/ui/button";
+import ActiveCallDetail from '@/components/call/ActiveCallDetail';
 import { useVapiCall } from '../hooks/useVapiCall';
 
 const Home = () => {
@@ -30,9 +30,12 @@ const Home = () => {
         
         {!isCallActive ? (
           <Button 
-            label="Start Conversation" 
+            variant="default"
+            size="lg"
             onClick={handleStartCall}
-          />
+          >
+            Start Conversation
+          </Button>
         ) : (
           <ActiveCallDetail
             assistantIsSpeaking={assistantIsSpeaking}
