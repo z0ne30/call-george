@@ -1,6 +1,7 @@
 import React from 'react';
 import Button from '../../assistants/components/base/Button';
 import ActiveCallDetail from '../../assistants/components/ActiveCallDetail';
+import { useVapiCall } from '../hooks/useVapiCall';
 
 const Home = () => {
   const [isCallActive, setIsCallActive] = React.useState(false);
